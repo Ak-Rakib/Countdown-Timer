@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(../assest/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
