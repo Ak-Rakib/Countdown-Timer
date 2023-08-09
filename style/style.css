@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    --text-color:#FFF
+}
 
 *{
     box-sizing: border-box;
@@ -11,5 +14,34 @@ body {
     background-image: url(../assest/bg.jpg);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content:center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.child-container {
+    text-align: center;
+}
+
+.child-container span {
+    font-size: 1.5rem;
 }
