@@ -20,10 +20,14 @@ function countdown() {
     console.log(days, hours, min, seconds);
 
 
-    day.innerHTML = days;
-    hour.innerHTML = hours;
-    min.innerHTML = mins;
-    second.innerHTML = seconds;
+    day.innerHTML = formatTime(days);
+    hour.innerHTML = formatTime(hours);
+    min.innerHTML = formatTime(mins);
+    second.innerHTML = formatTime(seconds);
+}
+
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
 }
 
 countdown();
